@@ -1,4 +1,4 @@
-# Application Security Scanner (ASS)
+# Security Audit Scanner (SAS)
 
 A collection of self-contained security scanners covering **Static Application Security Testing (SAST)**
 for source code, **Infrastructure-as-Code (IaC) security analysis**, **Network Device Security**
