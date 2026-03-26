@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.svg" alt="Static Application Security Testing" width="900"/>
+</p>
+
 # Static Application Security Testing (SAST)
 
 A collection of self-contained Python SAST scanners for source code vulnerability detection
