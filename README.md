@@ -4,10 +4,10 @@
 
 # Static Application Security Testing (SAST)
 
-A collection of self-contained Python SAST scanners for source code vulnerability detection
-across **Java**, **PHP**, **Python**, **MERN/Node.js**, and **AI/LLM applications**, plus
-**SaaS Security Posture Management (SSPM)** scanners for **Microsoft 365**, **ServiceNow**,
-and more.
+A collection of self-contained, zero-dependency Python SAST scanners for source code vulnerability
+detection across **Java**, **PHP**, **Python**, **MERN/Node.js**, and **AI/LLM applications**,
+plus a **Microsoft 365 / Entra ID SSPM** scanner. Each scanner is a single Python file with no
+external dependencies (SSPM scanner requires `requests`).
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.8%2B-blue?style=flat-square&logo=python&logoColor=white"/>
@@ -264,8 +264,6 @@ python3 m365_scanner.py \
   --client-secret <secret> \
   [--severity HIGH] [--json report.json] [--html report.html] [-v]
 ```
-
----
 
 ---
 
